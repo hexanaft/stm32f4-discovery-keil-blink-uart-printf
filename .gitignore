@@ -11,6 +11,7 @@
 *.crf
 *.iex
 *.lnp
+*.__i
 
 # Libraries
 *.lib
