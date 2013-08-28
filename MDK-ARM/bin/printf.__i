@@ -1,5 +1,0 @@
--c --cpu Cortex-M4 -O2 -Otime --apcs=interwork -I..\ -I..\CMSIS\Include -I..\CMSIS\STM32F4xx\Include -I..\STM32F4_Discovery -I..\STM32F4xx_StdPeriph_Driver\inc 
--I C:\Keil\ARM\RV31\INC 
--I C:\Keil\ARM\CMSIS\Include 
--I C:\Keil\ARM\Inc\ST\STM32F4xx 
--DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000" -o ".\bin\printf.o" --depend ".\bin\printf.d" "..\STM32F4_Discovery\printf.c"
