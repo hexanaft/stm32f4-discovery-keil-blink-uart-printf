@@ -350,7 +350,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,STM32F4XX,HSE_VALUE=8000000</Define>
               <Undefine></Undefine>
-              <IncludePath>..\;..\CMSIS\Include;..\CMSIS\STM32F4xx\Include;..\STM32F4_Discovery;..\STM32F4xx_StdPeriph_Driver\inc</IncludePath>
+              <IncludePath>..\;..\CMSIS\Include;..\CMSIS\STM32F4xx\Include;..\STM32F4_Discovery;..\STM32F4xx_StdPeriph_Driver\inc;..\sdio</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -461,6 +461,16 @@
               <FileType>1</FileType>
               <FilePath>..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f4xx_sdio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sdio.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -470,6 +480,21 @@
               <FileName>discoveryf4utils.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\STM32F4_Discovery\discoveryf4utils.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>SDIO</GroupName>
+          <Files>
+            <File>
+              <FileName>stm32f4_discovery_sdio_sd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\sdio\stm32f4_discovery_sdio_sd.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4_discovery_sdio_sd_LowLevel.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\sdio\stm32f4_discovery_sdio_sd_LowLevel.c</FilePath>
             </File>
           </Files>
         </Group>

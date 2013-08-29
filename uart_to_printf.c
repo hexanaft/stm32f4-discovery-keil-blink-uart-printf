@@ -83,7 +83,7 @@ void UART_Configuration(void)
  	GPIO_Configuration();
 	USART2_Configuration();
 	
- 	puts("USART2_Configuration: DONE");
+ 	puts("\n\nUSART2_Configuration: DONE");
 }
 
 //******************************************************************************
